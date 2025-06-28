@@ -1,0 +1,12 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.getFilesAndFolders {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  // background-color: antiquewhite;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

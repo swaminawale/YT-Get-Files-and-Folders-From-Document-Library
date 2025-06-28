@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "Get Files and Folders From Document Library",
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "Get Files and Folders",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.3",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "get-files-and-folders-from-document-library",
+    "libraryId": "0605d22c-e452-4655-b898-627dc5dcbc85",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionShortDescription": "Get Files and Folders From Document Library description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}

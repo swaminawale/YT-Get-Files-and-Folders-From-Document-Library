@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "get-files-and-folders-from-document-library-client-side-solution",
+    "id": "0605d22c-e452-4655-b898-627dc5dcbc85",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Swami N.",
+      "websiteUrl": "https://www.youtube.com/@swaminawale",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Get Files and Folders From Document Library description"
+      },
+      "longDescription": {
+        "default": "Get Files and Folders From Document Library description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "get-files-and-folders-from-document-library Feature",
+        "description": "The feature that activates elements of the get-files-and-folders-from-document-library solution.",
+        "id": "273c31d8-04a6-40fe-809f-5c2decb6143d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/get-files-and-folders-from-document-library.sppkg"
+  }
+}
