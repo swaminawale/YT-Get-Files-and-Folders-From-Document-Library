@@ -74,7 +74,7 @@ export default class GetFilesAndFolders extends React.Component<
 
     try {
       const folder = await getDocumentLibraryFolderFromServerRelativePath(
-        "/sites/SPFX/Shared Documents",
+        "/sites/<site-name>/Shared Documents",
         this.props.context
       );
 
@@ -92,7 +92,7 @@ export default class GetFilesAndFolders extends React.Component<
 
     try {
       const folder = await getDocumentLibraryFolderFromAbsolutePath(
-        "https://fe27.sharepoint.com/sites/DemoSite/Shared%20Documents",
+        "https://<your-tenant>.sharepoint.com/sites/<site-name>/Shared%20Documents",
         this.props.context
       );
 
